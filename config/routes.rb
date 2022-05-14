@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  resources :todo_lists do
+  resources :inventories do
     resources :items
    end
-
 end
